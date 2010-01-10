@@ -2,7 +2,7 @@
 /**
  *
  * @license    GPL 2 (http://www.gnu.org/licenses/gpl.html)
- * @author     Andreas Gohr <gohr@cosmocode.de>
+ * @author     Andreas Gohr <andi@splitbrain.org>
  */
 
 // must be run within Dokuwiki
@@ -12,13 +12,6 @@ if(!defined('DOKU_PLUGIN')) define('DOKU_PLUGIN',DOKU_INC.'lib/plugins/');
 require_once(DOKU_PLUGIN.'action.php');
 
 class action_plugin_imageshack extends DokuWiki_Action_Plugin {
-
-    /**
-     * return some info
-     */
-    function getInfo(){
-        return confToHash(dirname(__FILE__).'/info.txt');
-    }
 
     /**
      * register the eventhandlers and initialize some options
