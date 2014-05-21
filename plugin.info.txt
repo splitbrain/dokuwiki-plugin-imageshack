@@ -1,7 +1,7 @@
 base   imageshack
 author Andreas Gohr
 email  andi@splitbrain.org
-date   2009-08-30
+date   2013-12-27
 name   ImageShack Uploader
 desc   Integrates uploading to ImageShack into the Media Manager
 url    http://www.dokuwiki.org/plugin:imageshack
